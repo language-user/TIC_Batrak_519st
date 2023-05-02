@@ -59,10 +59,10 @@ def lossless_comp():
     )
     text = open("results_sequence.txt", "a")
     text.write(f"Ймовірність появи символів: {probability_str}\n")
-    text.write(f"Середнє арифметичне ймовірності: {mean_probability}\n")
+    text.write(f"Середнє арифметичне ймовірності: {round(mean_probability, 3)}\n")
     text.write(f"Ймовірність розподілу символів: {uniformity}\n")
-    text.write(f"Ентропія: {entropy}\n")
-    text.write(f"Надмірність джерела: {source_excess}\n")
+    text.write(f"Ентропія: {round(mean_probability, 3)}\n")
+    text.write(f"Надмірність джерела: {round(mean_probability, 3)}\n")
     text.write("\n")
 
     # 2 Задание
@@ -90,10 +90,10 @@ def lossless_comp():
 
     text = open("results_sequence.txt", "a")
     text.write(f"Ймовірність появи символів: {probability_str}\n")
-    text.write(f"Середнє арифметичне ймовірності: {mean_probability}\n")
+    text.write(f"Середнє арифметичне ймовірності: {round(mean_probability, 3)}\n")
     text.write(f"Ймовірність розподілу символів: {uniformity}\n")
-    text.write(f"Ентропія: {entropy}\n")
-    text.write(f"Надмірність джерела: {source_excess}\n")
+    text.write(f"Ентропія: {round(mean_probability, 3)}\n")
+    text.write(f"Надмірність джерела: {round(mean_probability, 3)}\n")
     text.write("\n")
 
     # 3 задание
@@ -118,10 +118,10 @@ def lossless_comp():
 
     text = open("results_sequence.txt", "a")
     text.write(f"Ймовірність появи символів: {probability_str}\n")
-    text.write(f"Середнє арифметичне ймовірності: {mean_probability}\n")
+    text.write(f"Середнє арифметичне ймовірності: {round(mean_probability, 3)}\n")
     text.write(f"Ймовірність розподілу символів: {uniformity}\n")
-    text.write(f"Ентропія: {entropy}\n")
-    text.write(f"Надмірність джерела: {source_excess}\n")
+    text.write(f"Ентропія: {round(mean_probability, 3)}\n")
+    text.write(f"Надмірність джерела: {round(mean_probability, 3)}\n")
     text.write("\n")
 
     # 4 задание
@@ -150,12 +150,11 @@ def lossless_comp():
     )
 
     text = open("results_sequence.txt", "a")
-    text.write(f"Завдання 4\n")
     text.write(f"Ймовірність появи символів: {probability_str}\n")
-    text.write(f"Середнє арифметичне ймовірності: {mean_probability}\n")
+    text.write(f"Середнє арифметичне ймовірності: {round(mean_probability, 3)}\n")
     text.write(f"Ймовірність розподілу символів: {uniformity}\n")
-    text.write(f"Ентропія: {entropy}\n")
-    text.write(f"Надмірність джерела: {source_excess}\n")
+    text.write(f"Ентропія: {round(mean_probability, 3)}\n")
+    text.write(f"Надмірність джерела: {round(mean_probability, 3)}\n")
     text.write("\n")
 
     # 5 задание
@@ -199,10 +198,10 @@ def lossless_comp():
 
     text = open("results_sequence.txt", "a")
     text.write(f"Ймовірність появи символів: {probability_str}\n")
-    text.write(f"Середнє арифметичне ймовірності: {mean_probability}\n")
+    text.write(f"Середнє арифметичне ймовірності: {round(mean_probability, 3)}\n")
     text.write(f"Ймовірність розподілу символів: {uniformity}\n")
-    text.write(f"Ентропія: {entropy}\n")
-    text.write(f"Надмірність джерела: {source_excess}\n")
+    text.write(f"Ентропія: {round(mean_probability, 3)}\n")
+    text.write(f"Надмірність джерела: {round(mean_probability, 3)}\n")
     text.write("\n")
 
     # 6 задание
@@ -235,10 +234,10 @@ def lossless_comp():
 
     text = open("results_sequence.txt", "a")
     text.write(f"Ймовірність появи символів: {probability_str}\n")
-    text.write(f"Середнє арифметичне ймовірності: {mean_probability}\n")
+    text.write(f"Середнє арифметичне ймовірності: {round(mean_probability, 3)}\n")
     text.write(f"Ймовірність розподілу символів: {uniformity}\n")
-    text.write(f"Ентропія: {entropy}\n")
-    text.write(f"Надмірність джерела: {source_excess}\n")
+    text.write(f"Ентропія: {round(mean_probability, 3)}\n")
+    text.write(f"Надмірність джерела: {round(mean_probability, 3)}\n")
     text.write("\n")
 
     # 7 задание
@@ -263,10 +262,10 @@ def lossless_comp():
 
     text = open("results_sequence.txt", "a")
     text.write(f"Ймовірність появи символів: {probability_str}\n")
-    text.write(f"Середнє арифметичне ймовірності: {mean_probability}\n")
+    text.write(f"Середнє арифметичне ймовірності: {round(mean_probability, 3)}\n")
     text.write(f"Ймовірність розподілу символів: {uniformity}\n")
-    text.write(f"Ентропія: {entropy}\n")
-    text.write(f"Надмірність джерела: {source_excess}\n")
+    text.write(f"Ентропія: {round(mean_probability, 3)}\n")
+    text.write(f"Надмірність джерела: {round(mean_probability, 3)}\n")
     text.write("\n")
 
     # 8 Задание
@@ -290,10 +289,10 @@ def lossless_comp():
 
     text = open("results_sequence.txt", "a")
     text.write(f"Ймовірність появи символів: {probability_str}\n")
-    text.write(f"Середнє арифметичне ймовірності: {mean_probability}\n")
+    text.write(f"Середнє арифметичне ймовірності: {round(mean_probability, 3)}\n")
     text.write(f"Ймовірність розподілу символів: {uniformity}\n")
-    text.write(f"Ентропія: {entropy}\n")
-    text.write(f"Надмірність джерела: {source_excess}\n")
+    text.write(f"Ентропія: {round(mean_probability, 3)}\n")
+    text.write(f"Надмірність джерела: {round(mean_probability, 3)}\n")
     text.write("\n")
 
     text.close()
