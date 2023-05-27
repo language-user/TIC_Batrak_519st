@@ -1,3 +1,4 @@
+import ast
 import random
 
 CHUNK_LENGTH = 8
@@ -9,7 +10,10 @@ f.close()
 
 def read_sequences():
     with open("sequence.txt", "r", encoding="utf-8") as file:
-        original_sequences = [sequence.strip("\n") for sequence in file.readlines()]
+        original_sequences = ast.literal_eval(file.read())
+        original_sequences = [seq.strip("[]").strip("'") for seq in
+                              original_sequences]
+
     return original_sequences
 
 
